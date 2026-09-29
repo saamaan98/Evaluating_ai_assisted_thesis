@@ -1,0 +1,48 @@
+{
+  "synthetic_software_test_not_empirical_LLM_result": true,
+  "input": [
+    [
+      "1",
+      "2"
+    ],
+    [
+      "3",
+      "word"
+    ]
+  ],
+  "formats": [
+    [
+      "None",
+      "None"
+    ],
+    [
+      "None",
+      "None"
+    ]
+  ],
+  "areas": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      "word"
+    ]
+  ],
+  "finding": "The integer component bounding box includes the different-type bottom-right cell. Region bounding boxes are not exact component membership."
+}

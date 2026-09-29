@@ -1,0 +1,27 @@
+{
+  "resamples": 1000,
+  "seed": 20260909,
+  "confidence": 0.95,
+  "interval": "percentile; exploratory",
+  "cluster_unit": "base workbook",
+  "clusters": 6,
+  "retained_within_cluster": "all six error types, all ten cases, all three repeats",
+  "unique_seeded_cases": 360,
+  "detection_opportunities": 3240,
+  "summary_correction_status": "Not verified: the correction report mismatched workbook labels.",
+  "source_sha256": {
+    "Model_Results_1.xlsx": "b14fa39dec236378238e9e208f32565d41d7f23ba9c2282fd6b17f4406e5e42c",
+    "Model_Results_2.xlsx": "05d74fecddb8fa693607667b3c4e0c693d9286d153e0472d41c0e4bd30f88cfd",
+    "Model_Results_3.xlsx": "63f7390e85bf0ecc649a15be9a6a5faf8a7b4ef929f9263c18ecf276813c94d5"
+  },
+  "numpy_version": "2.1.3",
+  "openpyxl_version": "3.1.5",
+  "failure_labels": [
+    "failed run",
+    "no result",
+    "run failed"
+  ],
+  "run_id_source": "input filename suffix",
+  "completion_rule": "all non-failure audit groups assumed completed",
+  "scoring": "researcher-confirmed detail labels; no independent re-adjudication"
+}

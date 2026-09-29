@@ -1,0 +1,27 @@
+Paired cluster bootstrap: 1000 resamples, seed 20260909
+All percentages below are based on accepted detail-sheet labels.
+
+GPT      completion_rate        100.00% | exploratory 95% interval: 100.00% to 100.00%
+GPT      end_to_end_recall      88.61% | exploratory 95% interval: 84.72% to 91.21%
+GPT      conditional_recall     88.61% | exploratory 95% interval: 84.72% to 91.21%
+MISTRAL  completion_rate        62.04% | exploratory 95% interval: 39.81% to 83.36%
+MISTRAL  end_to_end_recall      40.56% | exploratory 95% interval: 30.65% to 50.46%
+MISTRAL  conditional_recall     65.37% | exploratory 95% interval: 56.25% to 79.18%
+GEMINI   completion_rate        49.07% | exploratory 95% interval: 36.11% to 62.96%
+GEMINI   end_to_end_recall      11.76% | exploratory 95% interval: 6.85% to 16.57%
+GEMINI   conditional_recall     23.96% | exploratory 95% interval: 17.67% to 27.88%
+
+Interpretation:
+Completion = readable/completed audits divided by all attempted audits.
+End-to-end recall = detected seeded errors divided by all seeded opportunities.
+Conditional recall = detected seeded errors divided by opportunities in completed audits.
+Conditional recall uses different successful subsets for different LLMs; it is not a fair standalone ranking.
+Six base workbooks are only six clusters. Nominal 95% intervals have uncertain coverage.
+The workbooks are a selected case study, not a random sample of all real-estate models.
+Zero failures in GPT produce a degenerate completion interval; this does not prove universal readability.
+The bootstrap retains the observed repeats. It does not separately model future-run randomness.
+No p-values, guaranteed significance, or guaranteed +/-10% margin are claimed.
+Precision, F1 and conventional accuracy are omitted: exhaustive findings and a defined TN population are unavailable.
+Original workbooks are unchanged. Corrected audit counts are supplied as CSV.
+Reference: Cameron & Miller (2015), A Practitioner's Guide to Cluster-Robust Inference.
+https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf

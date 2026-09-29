@@ -1,0 +1,7 @@
+﻿workbook,sheets,populated_cells,formula_cells,aggregation_completed,aggregation_recursion_failures,default_type_mapping_formula_content_changed,general_as_none_formula_content_preserved,baseline_bytes,lossless_index_bytes,lossless_index_compression_ratio
+W1_Real_seeded,8,1103,414,8,0,414,34,53495,49911,1.0718078179158903
+W2_Quick_seeded,1,247,110,1,0,110,2,13091,13409,0.9762845849802372
+W3_Project_seeded,22,930924,921815,19,3,921815,128327,287390804,280718406,1.023769007864771
+W4_core_seeded,19,100535,97500,19,0,97500,2636,40114187,39264415,1.0216422936646326
+W5_Business_seeded,22,76838,55203,20,2,55203,1975,4600020,3567003,1.289603625228238
+W6_Zamila_seeded,27,332311,154924,23,4,154924,51290,24846791,20596813,1.206341534488855
